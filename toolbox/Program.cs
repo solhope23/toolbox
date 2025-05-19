@@ -10,6 +10,9 @@ namespace toolbox
     {
         static void Main(string[] args)
         {
+            fffff d = new fffff();
+            d.aaaaa();
+
         }
     }
 }
