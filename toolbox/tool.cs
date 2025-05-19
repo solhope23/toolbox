@@ -2,10 +2,10 @@
 
 abstract public class tool
 {
-    public string Name;
-    public int Weight;
+    protected string Name;
+    protected double Weight;
 
-    public tool(string name, int weight)
+    public tool(string name, double weight)
     {
         this.Name = name;
         this.Weight = weight;
@@ -15,6 +15,6 @@ abstract public class tool
 
     public void Use()
     {
-        Console.WriteLine(Name + "is being used");
+        Console.WriteLine(Name + " is being used.");
     }
 }

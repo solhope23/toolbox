@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Security;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,9 +11,15 @@ namespace toolbox
     {
         static void Main(string[] args)
         {
-            fffff d = new fffff();
-            d.aaaaa();
+            tool[] TooList = { new hammer(), new screwdriver() };
+            foreach (tool Tool in TooList)
+            {
+                Tool.Describe();
+                Tool.Use();
+            }
+
 
         }
     }
 }
+
